@@ -81,7 +81,7 @@ export default function Dashboard() {
   return (
     <>
       <WelcomeBanner />
-      <h2 style={{ textAlign: 'center', color: 'red' }}>Space</h2>
+      <h2 style={{ textAlign: 'center', textColor: 'red' }}>Space</h2>
       <h2 style={{ textAlign: 'center' }}>Games</h2>
       <GameGrid />
     </>
