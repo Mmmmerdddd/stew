@@ -98,8 +98,8 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>FURBY'S CASINO</h1>
-        <p>New Listing LICKGOATCOIN<img src="/lick.png" alt="X" style={{ width: '1em', height: '1em', marginLeft: '4px' }} /></p>
+        <h1>FurbyWifHat Casino</h1>
+        <p>New Listing $FurbyWif<img src="" alt="X" style={{ width: '1em', height: '1em', marginLeft: '4px' }} /></p>
         <button className="small-button" onClick={() => window.open('https://twitter.com/LickGoatCoin', '_blank')}>
            Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
