@@ -17,6 +17,41 @@ export function GameSlider() {
   )
 }
 
+const Buttons = styled.div`
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  @media (min-width: 800px) {
+    height: 100%;
+  }
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 0!important;
+  }
+
+  & > button {
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background: #ffffffdf;
+    transition: background .2s ease;
+    color: black;
+    cursor: pointer;
+    &:hover {
+      background: white;
+    }
+  }
+`;
+
 const Grid = styled.div`
   display: grid;
   gap: 1rem;
