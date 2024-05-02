@@ -38,7 +38,7 @@ const Buttons = styled.div`
 `;
 
 const Welcome = styled.div`
-  background-image: url('/NEON.png'); /* Adjust the path to your NEON image */
+  background-image: url('../../../public/banner.png'); /* Adjust the path to your NEON image */
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -98,7 +98,7 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>STEWIE CASINO</h1>
+        <h1>FURBY'S CASINO</h1>
         <p>New Listing LICKGOATCOIN<img src="/lick.png" alt="X" style={{ width: '1em', height: '1em', marginLeft: '4px' }} /></p>
         <button className="small-button" onClick={() => window.open('https://twitter.com/LickGoatCoin', '_blank')}>
            Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
