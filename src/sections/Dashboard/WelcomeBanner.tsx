@@ -5,7 +5,7 @@ import { EXPLORER_URL } from '../../constants';
 const Buttons = styled.div`
   overflow: hidden;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
