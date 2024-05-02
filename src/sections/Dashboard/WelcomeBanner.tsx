@@ -38,7 +38,7 @@ const Buttons = styled.div`
 `;
 
 const Welcome = styled.div`
-  background-image: url('/banner.png'); /* Adjust the path to your NEON image */
+  background-image: url('banner.png'); /* Adjust the path to your NEON image */
   background-size: cover;
   background-position: center;
   border-radius: 10px;
