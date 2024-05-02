@@ -81,7 +81,8 @@ export default function Dashboard() {
   return (
     <>
       <WelcomeBanner />
-      <h2 style={{ textAlign: 'center', textColor: '#ff0000' }}>gm</h2>
+      <h1 style={{ textAlign: 'center'}}>gm🐓</h1>
+              <p>Life. Is. Just. A. Game.</p>
       <h2 style={{ textAlign: 'center' }}>Games</h2>
       <GameGrid />
     </>
