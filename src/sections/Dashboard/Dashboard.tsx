@@ -1,4 +1,4 @@
-import React from 'react'
+🎰import React from 'react'
 import styled from 'styled-components'
 import { SlideSection } from '../../components/Slider'
 import { GAMES } from '../../games'
@@ -82,8 +82,7 @@ export default function Dashboard() {
     <>
       <WelcomeBanner />
      <div style={{ textAlign: 'center' }} >
-             <h1>gm🎰</h1>
-              <h1>Furby.</h1> <h2>Is. More. Than. Just. A. Game.</h2></div>
+              <h1>Furby.🎰</h1> <h2>Is. More. Than. Just. A. Game.</h2></div>
       <h2 style={{ textAlign: 'center' }}>Games</h2>
       <GameGrid />
     </>
