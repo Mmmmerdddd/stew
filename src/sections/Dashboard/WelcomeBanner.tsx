@@ -105,13 +105,10 @@ export function WelcomeBanner() {
         </button>
       </div>
       <Buttons>
-        <button onClick={() => window.open('https://twitter.com/StewiePuffy', '_blank')}>
+        <button onClick={() => window.open('https://x.com/furbywifhat', '_blank')}>
           Twitter <img src="/x.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
-        <button onClick={() => window.open('https://forms.gle/wiwYbqPgVPaSMfds5', '_blank')}>
-          List your MeMe Coin <img src="/meme.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
-        </button>
-        <button onClick={() => window.open('https://t.me/Stewiepuffy')}>
+        <button onClick={() => window.open('https://t.me/furbywifhatportal')}>
           Telegram <img src="/Telegram.png" alt="X" style={{ width: '0.8em', height: '0.8em', marginLeft: '4px' }} />
         </button>
       </Buttons>
