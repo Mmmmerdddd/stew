@@ -81,7 +81,8 @@ export default function Dashboard() {
   return (
     <>
       <WelcomeBanner />
-     <div><h1 style={{ textAlign: 'center'}}>gm🐓</h1>
+     <div style={{ textAlign: 'center'}} >
+             <h1>gm🐓</h1>
               <p>Furby. Is. More. Than. Just. A. Game.</p></div>
       <h2 style={{ textAlign: 'center' }}>Games</h2>
       <GameGrid />
